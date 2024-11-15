@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "fstream": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "structures.h": "c",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp"
+    }
+}

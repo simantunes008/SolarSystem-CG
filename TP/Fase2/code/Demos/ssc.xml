@@ -1,0 +1,191 @@
+<world>
+    <window width="512" height="512" />
+    <camera> 
+	    <position x="3" y="2" z="3" />
+	    <lookAt x="0" y="0" z="0" />
+	    <up x="0" y="1" z="0" /> <!-- optional, use these values as default-->
+        <projection fov="60" near="1" far="1000" /> <!-- optional, use these values as default-->
+    </camera>
+
+    <group> 
+        <!-- sol -->
+        <transform> 
+		    <translate x="0" y="0" z="0" />
+        </transform>
+		<group>
+			<transform> 
+				<scale x="0.8" y="0.8" z="0.8" />
+			</transform>
+			<models> 
+				<model file="sphere_1_16_16.3d" /> 
+			</models>
+		</group>
+        <!-- Mercurio -->
+        <group> 
+            <transform> 
+                <translate x="1" y="0" z="0" />
+                <rotate angle="-7" x="0" y="0" z="1" />
+                 </transform>
+            <group>
+                <transform> 
+                    <scale x="0.028" y="0.028" z="0.028" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" /> 
+                </models>
+            </group>
+        </group>
+        <!-- Venus -->
+        <group> 
+            <transform> 
+                <translate x="1.869" y="0" z="0" />
+                 <rotate angle="177" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.07" y="0.07" z="0.07" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+        <!-- terra -->
+        <group> 
+            <transform> 
+                <translate x="2.584" y="0" z="0" />
+                 <rotate angle="-23,5" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.073" y="0.073" z="0.073" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+            <!-- Lua -->
+            <group>
+                <transform> 
+                    <translate x="0.1" y="0.1" z="0" />
+                    <scale x="0.02" y="0.02" z="0.02" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>    
+        </group>
+        <!-- Marte -->
+        <group> 
+            <transform> 
+                <translate x="3.936" y="0" z="0" />
+                <rotate angle="25" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.039" y="0.039" z="0.039" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+        <!-- Jupiter -->
+        <group> 
+            <transform> 
+                <translate x="5.025" y="0" z="0" />
+                <rotate angle="-3" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.535" y="0.535" z="0.55" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+        <!-- Saturo -->
+        <group> 
+            <transform> 
+                <translate x="9.219" y="0" z="0" />
+                <rotate angle="-27" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.446" y="0.446" z="0.446" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group> 
+            <!-- Anel saturno usando torus -->
+            <group>
+                <transform> 
+                    <rotate angle="20" x="1" y="0" z="0" />
+                    <scale x="0.2" y="0.1" z="0.2" />
+                </transform>
+                <models> 
+                    <model file="torus_05_4_24_24.3d" />
+                </models>
+            </group>
+            <!-- Anel inferior saturno usando torus-->
+            <group>
+                <transform> 
+                    <rotate angle="20" x="1" y="0" z="0" />
+                    <scale x="0.15" y="0.15" z="0.15" />
+                </transform>
+                <models> 
+                    <model file="torus_05_4_24_24.3d" />
+                </models>
+            </group>  
+        </group>
+        <!-- Urano -->
+        <group> 
+            <transform> 
+                <translate x="11.484" y="0" z="0" />
+                <rotate angle="98" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.194" y="0.194" z="0.194" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+        <!-- Neptuno -->
+        <group> 
+            <transform> 
+                <translate x="17,980" y="0" z="0" />
+                <rotate angle="-30" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.189" y="0.189" z="0.189" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+        <!-- Plutao -->
+        <group> 
+            <transform> 
+                <translate x="23.624" y="0" z="0" />
+                <rotate angle="-120" x="0" y="0" z="1" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.027" y="0.027" z="0.027" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_16_16.3d" />
+                </models>
+            </group>
+        </group>
+	</group>
+</world>
+
+
