@@ -1,3 +1,0 @@
-/home/loki/CodeProjects/CG/TP5/code5/build/CMakeFiles/class5.dir
-/home/loki/CodeProjects/CG/TP5/code5/build/CMakeFiles/edit_cache.dir
-/home/loki/CodeProjects/CG/TP5/code5/build/CMakeFiles/rebuild_cache.dir

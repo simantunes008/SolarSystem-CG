@@ -1,3 +1,0 @@
-/home/loki/CodeProjects/CG/TP9/code9/build/CMakeFiles/class9.dir
-/home/loki/CodeProjects/CG/TP9/code9/build/CMakeFiles/edit_cache.dir
-/home/loki/CodeProjects/CG/TP9/code9/build/CMakeFiles/rebuild_cache.dir

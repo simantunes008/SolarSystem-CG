@@ -1,3 +1,0 @@
-/home/loki/CodeProjects/CG/TP7/code7/build/CMakeFiles/class7.dir
-/home/loki/CodeProjects/CG/TP7/code7/build/CMakeFiles/edit_cache.dir
-/home/loki/CodeProjects/CG/TP7/code7/build/CMakeFiles/rebuild_cache.dir
